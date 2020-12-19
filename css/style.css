@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #030303;
+    padding-top: 5rem;
+    text-align: justify;
+}
+/*NAV*/
+.transparent {
+background: none!important;
+}
+.navbar {
+background-color: #030303;
+transition: 0.25s;
+}
+.navbar-brand {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1ad1f1!important;
+}
+.nav-item {
+margin-left: 1.5rem;
+}
+.nav-link {
+font-size: 1.125rem;
+text-transform: uppercase;
+}
+.navbar-collapse.collapsing, .navbar-collapse.show {
+background-color: #000;
+text-align: center;
+}
+/*nav*/
+
+.hero1 .heading {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: 5px;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+.hero1 .subheading-container {
+    min-height: 500px;
+    height: 100%;
+    position: relative;
+}
+.hero1 .subheading {
+    position: absolute;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: 5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(90deg);
+}
+.hero1 .description {
+    color: #ececec;
+    font-size: 1.125rem;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#hero2{
+    width: 100%;
+    height: 100px;
+}
+#elem{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.circle{
+    position: absolute;
+    /* position: fixed; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 900px;
+    border-radius: 50%;
+    background-color: rgb(213, 216, 60);
+    
+
+}
+
+#circ1{
+    background-color: #6B9362;
+    /* left: 42%; */
+}
+#circ2{
+    background-color: #0ff1e6;
+    /* left: 47%; */
+}
+
+#circ3{
+    background: rgba(255, 255, 255, 0.75) url(../img/logo-alt.png) no-repeat center;
+    background-size: 50%;
+    z-index: 999898;
+    /* left: 52%; */
+}
+#circ4{
+    background-color: #6B9362;
+    /* left: 57%; */
+}
+.circle span{
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translateX(-50%) scale(1.25);
+    color: #fff;
+    opacity: 0;
+}
+
+.hero2 {
+    height: 100vh;
+}
+.hero2 h2{
+    color: #e0e0e0;
+    font-weight: 600;
+    font-size: 8vmin; 
+    line-height: 1.5;
+}
+
+.detimg {
+    width: 100%;
+}
+.detimg ::before{
+    width: 270px;
+    height: 270px;
+    content: "";
+    position: absolute;
+    z-index: 2;
+    bottom: -135px;
+    left: -170px;
+    border-radius: 50%;
+    /* mix-blend-mode: multiply; */
+    background-color: #1ad1f1;
+    opacity: .6;
+}
+.img{
+    width: 100%;
+    position: relative;
+}
+.img img {
+    width: 100%;
+}
+
+.approach {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+.ltxt{
+    position: relative;
+    min-height: 500px;
+    text-align: center;
+}
+.ltxt h2{
+    color: #ffffff;
+    top: 0;
+    left: 0;
+    transform: translate(1rem, 3rem) rotate(90deg);
+    font-size: 5rem;
+    text-align: center;
+
+}
+@media screen and (max-width: 576px) {
+    .ltxt h2 {
+        font-size: 4rem;
+        transform: translate(1rem, -1rem) rotate(90deg);
+    }
+  }
+.rtxt{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: .8px;
+    line-height: 29px;
+}
+#txxt1{
+    height: 130%;
+}
+#txxt1 .rtxt{
+   width: 70%;
+   font-size: 16px;
+}
+#mob-bar{
+    display: none;
+    position: absolute;
+    /* top:18%; */
+    right: 5%;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #030303;
+}
+
+
+#elem .circle2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+#elem #circ12{
+    background-color: rgba(137, 43, 226, 0.719);
+    left: 7%;
+}
+#elem #circ22{
+    background-color: rgba(43, 159, 226, 0.719);
+    /* left: 47%; */
+}
+
+#elem #circ32{
+    background-color: rgb(213, 216, 60);
+    opacity: .8;
+    background-image: url(logo.png);
+    background-size: cover;
+    background-position: center;
+    /* left: 52%; */
+}
+#elem #circ42{
+    background-color: rgba(93, 214, 168, 0.719);
+    /* left: 57%; */
+}
+
